@@ -708,7 +708,12 @@ define(function() {
 			matches: ['https://wavo.me/*'],
 			js: ['connectors/v2/wavome.js'],
 			version: 2
-		}
+		},
 
+                {
+                        label: 'Double J',
+                        matches: ['*://doublej.net.au/*'],
+                        js: ['connectors/doublej.js']
+                }
 	];
 });
