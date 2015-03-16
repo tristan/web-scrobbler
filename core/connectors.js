@@ -713,7 +713,8 @@ define(function() {
                 {
                         label: 'Double J',
                         matches: ['*://doublej.net.au/*'],
-                        js: ['connectors/doublej.js']
+                        js: ['connectors/v2/doublej.js'],
+                        version: 2
                 }
 	];
 });
